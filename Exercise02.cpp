@@ -16,9 +16,9 @@ int main() {
    cout << "Enter the width of the Box : ";
    cin >> width;
    // ===========================================
-  
+   Box box1;
    // 2. Use setters assign height, length, width throw
-  
+  box1.setDetails(width , height ,length);
    // === DO NOT CHANGE THE OUTPUT =============
    cout << "Box Height " << box1.getHeight() << endl;
    cout << "Box Length " << box1.getLength() << endl;
